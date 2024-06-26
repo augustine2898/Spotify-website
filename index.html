@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css"><!-- Link to main CSS file -->
+    <link rel="stylesheet" href="utility.css"><!-- Link to main CSS file -->
+    <link rel="icon" href="https://open.spotifycdn.com/cdn/images/favicon.0f31d2ea.ico"><!-- Spotify favicon -->
+</head>
+<body>
+    <div class="container flex bg-black ">
+        <!-- Left sidebar -->
+        <div class="left">
+            <!-- Navigation section -->
+            <div class="navleft">
+                <!-- Home section with rounded corners, background color, margin, and padding -->
+                <div class="home rounded bg-grey m1 p1 ">
+                <div class="logo"><img class="invert" src="images/navbar logo.svg" alt=""></div><!--Soptify logo-->
+                
+                <ul>
+                    <li><img class="invert"src="images/navbar homelogo.svg" alt="">Home</li><!-- Home icon and text -->
+                    <li><img class="invert"src="images/navbar searchlogo.svg" alt="">Search</li><!-- Search icon and text -->
+                </ul>
+                </div>
+                <!-- Library section with background color, rounded corners, margin, and padding -->
+                <div class="library bg-grey rounded m1 p2">
+                    <!-- Library heading with icon, title, and plus sign -->
+                    <div class="heading">
+                        <img class=invert src="images/librarylogo.svg" alt="">
+                            
+                            <h2 >
+                                Your Library
+                            </h2>
+                            <div class="libraryplussign"><img src="images/pluslogo.svg" alt=""> </div><!-- Plus icon -->
+                    </div>
+                    <!-- Scrollable sidebar content -->
+                    <div class="sidebar-scroll">
+                        <div class="create-playlist"><!-- Create Playlist section -->
+                            <h4>Create your first playlist</h4>
+                            <p>It's easy,we'll help you</p>
+                            <button>Create Playlist</button>
+                        </div>
+                        <div class="create-playlist"><!-- Browse Podcasts section -->
+                            <h4>Let's find some podcasts to follow </h4>
+                            <p>We'll keep you updated on new episodes</p>
+                            <button>Browse podcasts</button>
+                        </div>
+                    </div>
+                    <!-- Legal links section -->
+                    <div class="legal">
+                        <ul>
+                            <li>
+                                <a href="">Legal</a>
+                                <a href="">Safety & Privacy Center</a>
+                                <a href="">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="">Cookies</a>
+                                <a href="">About Ads</a>
+                                <a href="">Accessibility</a>
+                            </li>
+                            <li>
+                                <a href="">Cookies</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Language selection button -->
+                    <div class="englishbtn">
+                    <button><img class="invert" src="images/globe.svg" alt="">English</button>
+
+                    </div>
+                    
+                </div>
+                
+            </div>
+            
+        </div>
+        <!--main section starts from here-->
+
+        <div class="right rounded bg-grey  ">
+             <!-- Top navigation bar -->
+            <div class="top-nav">
+                <!-- Previous and next buttons -->
+                <div class="prev-btn">
+                    <button><img class="invert" src="images/lessthanlogo.svg" alt=""></button>
+                    <button><img class="invert"src="images/greatthanlogo.svg" alt=""></button>
+                </div>
+                <div class="login-btn">
+                    <!-- Sign up and login buttons -->
+                    <button class="signup">Sign Up</button>
+                    <button class="login">Login</button>
+                </div>
+            </div>
+            <section class="scroll">
+            <div class="art">
+                <!-- Popular artists section -->
+            <div class="spotify-playlist">
+                <h2>Popular artists</h2>
+                <div class="card">
+                    <!-- Individual album items -->
+                    <div class="item">
+                        <img src="images/artist/p.jpg" alt="">
+                        <h4>Pritam</h4>
+                        <p>Artist</p>
+                    </div>
+                    <!-- Individual album items -->
+                    <div class="item">
+                        <img src="images/artist/purpule.jpg" alt="">
+                        <h4>Udit Narayan</h4>
+                        <p>Artist</p>
+                    </div>
+
+                    <div class="item">
+                        <img src="images/artist/rah.jpg" alt="">
+                        <h4>A.R.Rahman</h4>
+                        <p>Artist</p>
+                    </div>
+
+                    <div class="item">
+                        <img src="images/artist/ani.jpg" alt="">
+                        <h4>Anirudh</h4>
+                        <p>Artist</p>
+                    </div>
+                    
+                    <div class="item">
+                        <img src="images/artist/ex vi.jpg" alt="">
+                        <h4>kk</h4>
+                        <p>Artist</p>
+                    </div>
+
+                    <div class="item">
+                        <img src="images/artist/sach.jpg" alt="">
+                        <h4>Sachin-jigar</h4>
+                        <p>Artist</p>
+                    </div>
+
+                    <div class="item">
+                        <img src="images/artist/last.jpg" alt="">
+                        <h4>Atif Aslsm</h4>
+                        <p>Artist</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Popular album section -->
+            <div class="spotify-playlist">
+                <h2>Popular album</h2>
+                <div class="card">
+                    <div class="item">
+                        <img src="images/albums/love hotel.jpg" alt="">
+                        <h4>love hotel</h4>
+                        <p>leftovermax</p>
+                    </div>
+
+                    <div class="item">
+                        <img src="images/albums/ek tha raja.jpg" alt="">
+                        <h4>Ek Tha Raja</h4>
+                        <p>Badshah</p>
+                    </div>
+
+                    <div class="item">
+                        <img src="images/albums/animal.jpg" alt="">
+                        <h4>Animal</h4>
+                        <p>Manan Bhardwaj,Vishal Mishra,Jaani</p>
+                    </div>
+
+                    <div class="item">
+                        <img src="images/albums/moose.jpg" alt="">
+                        <h4>Moosetape</h4>
+                        <p>Sidhu Moose Wala</p>
+                    </div>
+                    
+                    <div class="item">
+                        <img src="images/albums/asique.jpg" alt="">
+                        <h4>Aashiqui</h4>
+                        <p>Mithoon,Ankit Tiwari,Jeet Gannguli</p>
+                    </div>
+
+                    <div class="item">
+                        <img src="images/albums/avesham.jpg" alt="">
+                        <h4>Aavesham...</h4>
+                        <p>Sushin Shyam,Vinayak Sasikumar</p>
+                    </div>
+
+                    <div class="item">
+                        <img src="images/albums/sighn.jpg" alt="">
+                        <h4>Still Rollin</h4>
+                        <p>Shubh</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Popular radio section -->
+            <div class="spotify-playlist">
+                <h2>Popular radio</h2>
+                <div class="card">
+                    <div class="item">
+                        <img src="images/albums/arjith radio" alt="">
+                        <h4>Arijit singh Radio</h4>
+                        <p>With Neha Kakkar,Pritam,KK and...</p>
+                    </div>
+
+                    <div class="item">
+                        <img src="images/albums/arjith radio" alt="">
+                        <h4>A.R. Rahman...</h4>
+                        <p>With Shankar mahadevan,..</p>
+                    </div>
+
+                    <div class="item">
+                        <img src="images/albums/diljit" alt="">
+                        <h4>Diljit Dosanjh</h4>
+                        <p>With Garry Sandhu,Ranjit Bawa,..</p>
+                    </div>
+
+                    <div class="item">
+                        <img src="images/albums/lata" alt="">
+                        <h4>Lata Mangeshk..</h4>
+                        <p>With Asha Bhosle,Mohammed Rafi,..</p>
+                    </div>
+                    
+                    <div class="item">
+                        <img src="images/albums/rahata" alt="">
+                        <h4>Rahat Fatech Ali...</h4>
+                        <p>With Nusrat Fateh Ali KHAN,Kailash...</p>
+                    </div>
+
+                    <div class="item">
+                        <img src="images/albums/atif" alt="">
+                        <h4>Atif Aslam Radio</h4>
+                        <p>With Ali Zafar,Rahat Fateh Ali..</p>
+                    </div>
+
+                    <div class="item">
+                        <img src="images/albums/alka" alt="">
+                        <h4>Alka</h4>
+                        <p>With Udit Narayan,Kumar Sanu</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Featured Charts section -->
+            <div class="spotify-playlist">
+                <h2>Featured Charts</h2>
+                <div class="card">
+                    <div class="item">
+                        <img src="images/albums/top global.jpg" alt="">
+                        <h4>Top Songs-..</h4>
+                        <p>Your weekly update of the most played</p>
+                    </div>
+
+                    <div class="item">
+                        <img src="images/albums/top usa.jpg" alt="">
+                        <h4>Top Songs - USA</h4>
+                        <p>Your weekly update of the most played</p>
+                    </div>
+
+                    <div class="item">
+                        <img src="images/albums/top 50.jpg" alt="">
+                        <h4>Top 50 - Global</h4>
+                        <p>Your daily update of the most played</p>
+                    </div>
+
+                    <div class="item">
+                        <img src="images/albums/50 usa.jpg" alt="">
+                        <h4>Top 50 - USA</h4>
+                        <p>Your daily update of the most played</p>
+                    </div>
+                    
+                    <div class="item">
+                        <img src="images/albums/viaral 50 g.jpg" alt="">
+                        <h4>Viral 50 - Global</h4>
+                        <p>Your daily update of the most viral track</p>
+                    </div>
+
+                    <div class="item">
+                        <img src="images/albums/viraal usa.jpg" alt="">
+                        <h4>Viral 50 - USA</h4>
+                        <p>Your daily update of the most viral track</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Spotify Playlists Charts section -->
+            <div class="spotify-playlist">
+                <h2>Spotify Playlists</h2>
+                <div class="card">
+                    <div class="item">
+                        <img src="images/feel.jpg" alt="">
+                        <h4>Feel Good Dinner</h4>
+                        <p>An uplifiting yet tasteful dinner playlist with a</p>
+                    </div>
+
+                    <div class="item">
+                        <img src="images/dinner.jpg" alt="">
+                        <h4>Dinner & Chill</h4>
+                        <p>Gentle Indie songs for a relaxed dinner</p>
+                    </div>
+
+                    <div class="item">
+                        <img src="images/kitchen.jpg" alt="">
+                        <h4>Kitchen Swagger</h4>
+                        <p>Gettin'figgy with it,
+                            bana-na-na-nanana
+                        </p>
+                    </div>
+
+                    <div class="item">
+                        <img src="images/jazz.jpg" alt="">
+                        <h4>Dinner Jazz</h4>
+                        <p>The gentle sound of some of the...</p>
+                    </div>
+                    
+                    <div class="item">
+                        <img src="images/dinner with.jpg" alt="">
+                        <h4>Dinner with...</h4>
+                        <p>The perfect sounttrack of tho...</p>
+                    </div>
+
+                    <div class="item">
+                        <img src="images/two women.jpg" alt="">
+                        <h4>Dinner Lounge</h4>
+                        <p>Soft electronic music for your..</p>
+                    </div>
+
+                    <div class="item">
+                        <img src="images/dance.jpg" alt="">
+                        <h4>Bossa Nova...</h4>
+                        <p>Soundtrack your cozy dinner with...</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--   Trending Episodes Charts section -->
+            <div class="spotify-playlist">
+                <h2>Trending Episodes</h2>
+                <div class="card">
+                    <div class="item">
+                        <img src="images/albums/welcome.jpg" alt="">
+                        <h4>welcome back,...</h4>
+                        <p>Jun 2021. 15 min</p>
+                    </div>
+
+                    <div class="item">
+                        <img src="images/albums/sighn.jpg" alt="">
+                        <h4>#73:Hotel of...</h4>
+                        <p>Jun 2021 . 93 min</p>
+                    </div>
+
+                    <div class="item">
+                        <img src="images/albums/i hear.jpg" alt="">
+                        <h4>Anubus:God of...</h4>
+                        <p>Jun 2021. 16min</p>
+                    </div>
+
+                    <div class="item">
+                        <img src="images/albums/i hear.jpg" alt="">
+                        <h4>Anubus:God of...</h4>
+                        <p>Jun 2021. 13min</p>
+                    </div>
+
+                    <div class="item">
+                        <img src="images/albums/mahabarat.jpg" alt="">
+                        <h4>MAHABHARATA...</h4>
+                        <p>Apr 2014 .24 min</p>
+                    </div>
+                    
+                    <div class="item">
+                        <img src="images/albums/rain.jpg" alt="">
+                        <h4>Asatha Povathu Yaru|...</h4>
+                        <p>May 2021 . 11 min</p>
+                    </div>
+
+                    <div class="item">
+                        <img src="images/albums/uncenven.jpg" alt="">
+                        <h4>Ep 8 -Ye Na Th</h4>
+                        <p>Aug 2020 . 3 min</p>
+                    </div>
+
+                    
+                </div>
+            </div>
+            <!--   Footer section -->
+            <div class="footer-section">
+                <div class="footer">
+                    <div class="footer-links">
+                        <div class="footer-column">
+                            <div>Company</div>
+                            <ul class="cmpny-links">
+                                <li><a href="">About</a></li>
+                                <li><a href="">Jobs</a></li>
+                                <li><a href="">For the Record</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="footer-column">
+                            <div>Communities</div>
+                            <ul class="cmpny-links">
+                                <li><a href="">For Artists</a></li>
+                                <li><a href="">Developers</a></li>
+                                <li><a href="">Advertising</a></li>
+                                <li><a href="">Investors</a></li>
+                                <li><a href="">Vendors</a></li>
+
+                            </ul>
+                        </div>
+
+                        <div class="footer-column">
+                            <div>Useful links</div>
+                            <ul class="cmpny-links">
+                                <li><a href="">Support</a></li>
+                                <li><a href="">Free Mobile App</a></li>
+                                
+                            </ul>
+                        </div>
+
+                        <div class="footer-column">
+                            <div>Spotify Plans</div>
+                            <ul class="cmpny-links">
+                                <li><a href="">Premium Individual</a></li>
+                                <li><a href="">Premium Duo</a></li>
+                                <li><a href="">Premium Family</a></li>
+                                <li><a href="">Premium Student</a></li>
+                                <li><a href="">Spotify Free</a></li>
+
+                            </ul>
+                        </div>
+                </div>
+                <div class="socialmedia">
+                    <div class="socialmedia-icons">
+                        <!--Social media icons-->
+                        <button><img class="invert" src="images/social media/insta.svg" alt=""></button>
+                        <button><img class="invert" src="images/social media/twitter.svg" alt=""></button>
+                        <button><img class="invert" src="images/social media/facebook.svg" alt=""></button>
+                    </div>
+
+                </div>
+            </div>
+    </div>
+    <hr><!--adding line at the bottom-->
+    <div>
+        <p class="copyright">&copy;2024 Spotify AB</p>
+    </div>
+    </div>
+    <!--Preview section-->
+    <div class="preview">
+        <div class="text">
+            <h4>Preview of Spotify</h4>
+            <p>Sign up to get unlimited songs and podcasts with occasional ads.No credit card needed.</p>
+        </div>
+        <div class="lastbtn">
+            <button>Sign Up Free</button>
+        </div>
+    </div>
+</section>
+    </div>
+</body>
+</html>

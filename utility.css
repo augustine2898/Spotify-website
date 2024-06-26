@@ -1,0 +1,49 @@
+/* CSS for borders */
+.border{
+    border: 2px solid #121212;/* Solid border with color #121212 */
+    border-radius: 1px;/* Slight border radius */
+    ;
+}
+/* Flexbox layout */
+.flex{
+    display: flex;/* Use flexbox layout */
+}
+/* Centering items horizontally */
+.justify-center{
+    justify-content: center;/* Horizontally center items */
+}
+/* Centering items vertically */
+
+.item-centre{
+    align-items: center; /* Vertically center items */
+}
+/* Background color black with white text */
+.bg-black{
+    
+    background-color: black;
+    color: white;/* White text on black background */
+}
+/* Image filter to invert colors */
+.invert{
+    filter: invert(1);/* Invert colors of images */
+}
+/* Background color grey */
+.bg-grey{
+background-color: #121212;/* Dark grey background */
+}
+/* Margin of 4px */
+.m1{
+    margin: 4px;
+}
+/* Rounded corners */
+.rounded{
+    border-radius: 7px;
+}
+/* Padding of 24px */
+.p1{
+    padding :24px;
+}
+/* Padding of 12px */
+.p2{
+    padding: 12px;
+}

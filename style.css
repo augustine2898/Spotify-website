@@ -1,0 +1,410 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/*set a defult value*/
+*{ 
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+
+}
+
+/* Set the background of the body to black */
+body{
+    background: black;
+
+}
+/* Style for the left sidebar */
+.left{
+    width:25vw;
+    padding: 10px; 
+
+}
+/* Padding for the home section */
+.home{
+    padding: 24px;
+}
+/* Style for the list items in the home section */
+.home ul li{
+    display: flex;
+    width: 14px;
+    list-style: none;
+    gap: 15px;
+    padding-top: 12px;
+    font-weight: bold;
+}
+
+/* Style for the heading section */
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 23px 0px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+/* Image styling within the heading */
+.heading img{
+    width: 24px;
+    margin-right: 10px;
+}
+/* Text styling within the heading */
+.heading h2{
+    flex-grow: 1;
+    color: white;
+    margin: 0;
+}
+
+/* Styling for the plus icon in the library section */
+.libraryplussign{
+    width: 24px;
+}
+
+/* Scrollable sidebar with custom scrollbar styling */
+.sidebar-scroll{
+    height: 120px;
+    overflow-y: auto;
+    padding-left: 15px;
+}
+
+
+/* Custom scrollbar styles for sidebar */
+.sidebar-scroll::-webkit-scrollbar{
+    background: transparent;
+}
+
+.sidebar-scroll:hover:-webkit-scrollbar-thumb{
+    background: #5c5b5b;
+    width: 10px;
+}
+
+/* Style for the create playlist section */
+.create-playlist{
+    background: #302f2f;
+    padding:30px 15px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+/* Text styling within the create playlist section */
+.create-playlist h4{
+    color: #fff;
+    font-size: 15px;
+}
+
+.create-playlist p{
+    color: #fff;
+    font-size: 12px;
+    margin:12px 0;
+}
+/* Button styling within the create playlist section */
+.create-playlist button{
+    padding: 8px 15px;
+    border: 0;
+    outline: 0;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+
+/* Margin for the legal section */
+.legal{
+    
+    margin-top: 90px;
+}
+
+/* Styling for the legal section list */
+.legal ul{
+    list-style: none;
+    margin-top: 10px;
+}
+
+.legal ul li{
+    padding: 0 12px;
+    padding-bottom: 8px;
+}
+
+/* Styling for legal links */
+.legal ul li a{
+    
+    color:#818080;
+    font-size: 11px;
+    font-weight: 600;
+    margin: 0 3px;
+    text-decoration: none;
+}
+
+.legal ul li a:hover{
+    text-decoration: underline;
+    color: #bebcbc;
+}
+
+
+/* Styling for the English button section */
+.englishbtn{
+    padding: 20px 30px;
+}
+.englishbtn button img{
+    width: 16px;
+    position: relative;
+    right: 7px;
+}
+
+.englishbtn button{
+    padding: 10px 20px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    background: transparent;
+    color: white;
+    outline: none;
+    margin: 10px 0;
+
+}
+
+.englishbtn button:hover{
+    padding: 11px 30px;
+    border: 1px solid white;
+    margin-bottom: 100px;
+
+}
+
+/* Style for the right content area */
+.right{
+    width: 75vw;
+    margin:15px 0;
+    position: relative;
+    right: 9px;  
+}
+
+/* Scrollable area with custom scrollbar styling */
+.scroll{
+    height: 35rem;
+    overflow-y:scroll;
+    padding-left: 15px;
+
+}
+
+/* Custom scrollbar styles */
+.scroll::-webkit-scrollbar{
+    background: transparent;
+    width: 10px;
+    height: 70px;
+}
+
+/* Styling for the top navigation bar */
+.top-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #000000a1;
+    padding: 6px;
+
+}
+/* Styling for the previous button section */
+.prev-btn{
+    display: flex;
+    gap:10px;  
+}
+.prev-btn button{
+    padding: 8px 10px;
+    background:#000000d9;
+    border-radius: 25px;
+    border: 1px solid #070707;  
+}
+
+.prev-btn img{
+    width: 12px;
+}
+
+/* Styling for the login buttons */
+.login-btn{
+    display: flex;
+    gap:10px;  
+}
+
+.login-btn button{
+    padding: 15px 40px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    background: white;
+    color: rgb(27, 27, 27);
+    outline: none;
+    font-weight:bolder;
+    margin-right: 25px;
+    font-size: 16px;
+    position: relative;
+    top: 1px;
+}
+
+ .login-btn .signup{
+    background: transparent;
+    border: none;
+    color: rgb(205, 203, 203);
+    margin: 0;
+}
+
+.login-btn .signup:hover{
+    background: transparent;
+    border: none;
+    color: white;
+    margin: 0;
+    font-size: 17px;
+}
+
+/* Styling for the Music section images */
+.art .spotify-playlist .card .item img{
+    border-radius: 70px;
+}
+
+/* Styling for the Spotify playlist section */
+.spotify-playlist{
+   font-family:  "Roboto", sans-serif;
+   position: relative;
+    top: 10vh;
+}
+
+.spotify-playlist h2{
+    color: white;
+    font-size: 22px;
+    margin-bottom: 20px;
+
+}
+.spotify-playlist p{
+    color:grey;
+    font-size: 13px;
+    margin-top: 10px;
+
+}
+
+/* Card styling within the Spotify playlist section */
+.spotify-playlist .card{
+
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+}
+
+.spotify-playlist .card .item{
+    width: 160px;
+    min-width: 140px;
+    background-color: #121212;
+    cursor: pointer;
+    padding: 0px;
+}
+
+.spotify-playlist .card .item img{
+    width: 100%;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+/* Footer section styling */
+.footer-section{
+    padding: 64px 10px;
+}
+
+.footer-section .footer{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 48px;
+    
+}
+
+.footer-section .footer .footer-links{
+    display:flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.footer-section .footer .footer-links .footer-column{
+    margin:0 12px;
+}
+
+.footer-section .footer .footer-links div{
+    color: white;
+    font-weight: 600;
+    margin-bottom: 12px;
+    font-size: 16px;
+}
+
+.footer-section .footer .footer-links ul li{
+list-style: none;
+margin:6px;
+}
+
+.footer-section .footer .footer-links  ul li a{
+    text-decoration: none;
+    color: #969393 ;
+    font-size: 14px;
+}
+/* Styling for social media icons */
+.socialmedia{
+    display: flex;
+    gap:10px;  
+}
+
+.socialmedia-icons button{
+    padding: 9px 11px;
+    background:#2f2d2d;
+    border-radius: 25px;
+    border: 1px solid #2f2d2d;
+
+    
+}
+
+.socialmedia-icons img{
+    width: 20px;
+}
+
+
+/* Styling for horizontal lines */
+hr{
+    margin: 20px 40px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 40px;
+}
+/* Styling for the copyright section */
+.copyright{
+    padding: 0 40px;
+    color: #6a6a6a;
+    font-size: 15px;
+    margin-bottom:30px ;
+}
+
+/* Preview section styling */
+.preview{
+    display: flex;
+    justify-content: space-between;
+    background:linear-gradient(to right,#af2896, #509bf5);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 12px 40px;
+}
+
+.preview h4{
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+
+.preview p{
+    font-size: 16px;
+    font-weight: 400;
+    
+    color: #fff;
+}
+
+.preview .lastbtn button{
+    padding: 12px 30px;
+    border: 0;
+    outline: none;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color:#000;
+}
